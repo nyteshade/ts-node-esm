@@ -8,6 +8,9 @@
     "aria-fs": "^0.7.3"
   },
   "description": "Fork of ts-node-esm since it is broken on npmjs.org",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "keywords": [
     "ts-node",
     "esm"
