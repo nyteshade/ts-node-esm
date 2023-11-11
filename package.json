@@ -4,8 +4,8 @@
     "ts-node-esm": "./bin/cli.mjs"
   },
   "dependencies": {
-    "aria-build": "^0.4.3",
-    "aria-fs": "^0.4.3"
+    "aria-build": "^0.7.4",
+    "aria-fs": "^0.7.3"
   },
   "description": "Fork of ts-node-esm since it is broken on npmjs.org",
   "keywords": [
@@ -19,7 +19,9 @@
   "peerDependencies": {
     "typescript": ">=3.9.3"
   },
-  "publishConfig": {"access": "public"},
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nyteshade/ts-node-esm.git"
