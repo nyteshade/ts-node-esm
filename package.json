@@ -29,6 +29,9 @@
     "type": "git",
     "url": "https://github.com/nyteshade/ts-node-esm.git"
   },
+  "scripts": {
+    "test": "true"
+  },
   "typings": "./ts-node-esm.d.ts",
   "version": "0.0.7"
 }
