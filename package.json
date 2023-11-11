@@ -1,0 +1,28 @@
+{
+  "author": "Original <nyteshade at gmail.com> (Arjay Elbore)",
+  "bin": {
+    "ts-node-esm": "./bin/cli.mjs"
+  },
+  "dependencies": {
+    "aria-build": "^0.4.3",
+    "aria-fs": "^0.4.3"
+  },
+  "description": "Fork of ts-node-esm since it is broken on npmjs.org",
+  "keywords": [
+    "ts-node",
+    "esm"
+  ],
+  "license": "MIT",
+  "main": "./ts-node-esm.js",
+  "module": "./ts-node-esm.js",
+  "name": "@nyteshade/ts-node-esm",
+  "peerDependencies": {
+    "typescript": ">=3.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nyteshade/ts-node-esm.git"
+  },
+  "typings": "./ts-node-esm.d.ts",
+  "version": "0.0.7"
+}
