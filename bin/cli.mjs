@@ -9,7 +9,7 @@ require('child_process')
   .spawnSync('node', [ 
     '--no-warnings',
     '--loader',
-    'ts-node-esm/bin/esm.mjs',
-    'node_modules/ts-node-esm/bin/run',
+    '@nyteshade/ts-node-esm/bin/esm.mjs',
+    'node_modules/@nyteshade/ts-node-esm/bin/run',
     ...process.argv.slice(2)
   ], { stdio: 'inherit' })

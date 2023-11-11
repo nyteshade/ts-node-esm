@@ -10,7 +10,7 @@ const compilerOptions = {
   "allowJs": true
 }
 
-const esm = require('ts-node/dist/esm')
+const esm = require('@nyteshade/ts-node/bin/esm')
 export const { resolve, getFormat, transformSource } = esm
   .registerAndCreateEsmHooks({ 
     transpileOnly: true, 
